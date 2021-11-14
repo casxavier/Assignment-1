@@ -1,0 +1,115 @@
+image{
+    align-content: center;
+  }
+  
+  h1{
+      font-family: 'Montserrat', sans-serif;
+      text-align:center;
+  }
+  h2{
+      text-align:center;
+      font-family: 'Architects Daughter', cursive;
+      font-size: 30px;
+  }
+  h3{
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+  }
+  h4{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 20px;
+  }
+  h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+  }
+  
+  body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color : bisque;
+    }
+  
+  p{
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+  }
+  
+  ul{
+    display: inline; 
+    text-align:center;
+  }
+  li{
+    display: inline;
+    text-align:center;
+  }
+  
+  label {
+    display: inline-block;
+    width:200px;
+  }
+  
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .buttoncenter{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto
+    ;
+  }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: rgb(54, 53, 53);
+    }
+    
+    .topnav a {
+      float: left;
+      display: block; 
+      padding: 14px 16px; /* get the thickness of the navigation bar*/
+      text-decoration: none; 
+      font-size: 17px; 
+      color:rgb(231, 231, 231);
+    }
+  
+    .boxcolour{
+      background-color: gray;
+      color: blue;
+    }
+    
+    .topnav a:hover {
+      background-color: lightgray;
+      color:rgb(14, 35, 66);
+    }
+    
+    .topnav a.active {
+      color: white;
+    }
+    
+    
+    @media screen and (max-width: 600px) {
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+    
+    @media screen and (max-width: 600px) {
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .icon {
+        position: absolute;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
+  
+   
