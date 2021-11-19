@@ -35,6 +35,10 @@ JavaScript
 ->https://www.javascript.com/
 -> used to add micro interactions with user (to do after checkpoint submission)
 
+W3 Schools
+->https://www.w3schools.com/
+-> Used this tool/website for reference for the navigation bar 
+
 Testing
 -------
 Navigation Bar: 
