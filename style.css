@@ -6,20 +6,24 @@ image{
       font-family: 'Montserrat', sans-serif;
       text-align:center;
   }
+  
   h2{
       text-align:center;
       font-family: 'Architects Daughter', cursive;
       font-size: 30px;
   }
+
   h3{
       font-family: 'Montserrat', sans-serif;
       text-align: center;
   }
+
   h4{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 20px;
   }
+
   h5{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -40,9 +44,11 @@ image{
     display: inline; 
     text-align:center;
   }
+
   li{
-    display: inline;
-    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   label {
@@ -60,8 +66,7 @@ image{
   .buttoncenter{
     display: inline-block;
     margin-left: auto;
-    margin-right: auto
-    ;
+    margin-right: auto;
   }
     
     .topnav {
@@ -100,7 +105,7 @@ image{
       }
     }
     
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 500px) {
       .topnav.responsive {position: relative;}
       .topnav.responsive .icon {
         position: absolute;
@@ -110,6 +115,16 @@ image{
         display: block;
         text-align: left;
       }
-    }
+
+      h5 {
+        span{
+        ::after {
+        content: "\A";
+        white-space: pre;}
+      }
+
+  }
+
+  
   
    

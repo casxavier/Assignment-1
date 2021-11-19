@@ -1,0 +1,1 @@
+//used to create text/image to thank recruiter for reaching out to me (to do after checkpoint submission)// 
