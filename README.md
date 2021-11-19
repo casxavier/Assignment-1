@@ -3,7 +3,7 @@ Repo for Assignment 1 (xavier)
 
 Design Process
 --------------
-This website was built to act as my personal portfolio that can be used in th future. I want to highlight areas about myself and the projects that I ahve been through.
+This website was built to act as my personal portfolio that can be used in th future. I want to highlight areas about myself and the projects that I have been through.
 As i am not experienced in the IT industry, i need to further highlight the skills that i already possess in order to gain the attention of others.
 As a user that visits this website, I want to be attracted them to this website to continue to stay on the website and continue reading. 
 As a user, i would also want a website to be clear and concise while not being too wordy, this allows me to better navigate where I am on the website as it is neater and is more pleasing to the eye. 
@@ -27,11 +27,11 @@ Future feautres to implement:
 
 Technology Used
 ---------------
-.HTML,CSS
+HTML,CSS
 -> https://html.spec.whatwg.org/multipage/
 -> used to create the website and add alignments/design/images to it
 
-.JavaScript
+JavaScript
 ->https://www.javascript.com/
 -> used to add micro interactions with user (to do after checkpoint submission)
 
