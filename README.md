@@ -37,15 +37,15 @@ JavaScript
 
 Testing
 -------
-Navigation Bar:
-. Go to each page and check that there are no dead links in the navigation bar
-. Check that every link works in any order that it is clicked
-. Check if the link to the page is correct
+Navigation Bar: 
+  Go to each page and check that there are no dead links in the navigation bar
+  Check that every link works in any order that it is clicked
+  Check if the link to the page is correct
 
 Contact Form:
-. Try and submit an empty form and see if the error message for the required fields appear
-. Check if the email verification is correct
-. Try and submit the form with valid input to see if it submits correctly
+  Try and submit an empty form and see if the error message for the required fields appear
+  Check if the email verification is correct
+  Try and submit the form with valid input to see if it submits correctly
 
 Credits
 ------- 
