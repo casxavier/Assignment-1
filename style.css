@@ -116,12 +116,12 @@ image{
         text-align: left;
       }
 
-      h5 {
+     /* h5 {
         span{
         ::after {
         content: "\A";
         white-space: pre;}
-      }
+      }*/
 
   }
 
