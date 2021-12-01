@@ -1,15 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:wght@300&family=Poppins:wght@100&family=Roboto&display=swap" rel="stylesheet">
-    
   </head>
-  <body>
+<body class="margin">
 
 <nav>
   <div class="navbar">
   <a href="index.html" class="boxcolour">About Me</a>
-  <a href="projects.html">Projects And Experiences</a>
+  <a href="projects.html">Projects and Experiences</a>
   <a href="contact.html">Contact</a>
   </div>
 </nav>
@@ -20,8 +22,8 @@
   <br>I'm Xavier, currently a student studying in 
   <br>Ngee Ann Polytechnic in the Common ICT Programme.</h3>
   <img alt="Image of me" src="images/myimage.jpeg" class="center"
-  width = "200";
-  height= auto;>
+  width = "200"
+  height= "255">
 <br>
 <h4><u>More about myself and Interests I have</u></h4> 
 <p>I am a very active and adventurous individual with an always willing to learn attitude <br> I enjoy swimming and playing football during my free time and <br>
@@ -29,21 +31,49 @@
 
   <h4><u>My Journey In Education</u></h4>
 
-  <p class="center">
-  <b>Bukit Panjang Primary School</b>
-  <p>(2011-2016)</p>
-  </p>
+<div class="slideshow-container">
 
-  <p class="center">
-    <b>Greenridge Secondary School</b>
-    <p>(2017-2020)</p>
-  </p>
-  
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img alt= "Bukit Panjang Primary School" src="images/bpps.jpg" class="center" width= "225" height= "230">
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="text"><p><b>Bukit Panjang Primary School</b><br>2011-2016</p></div>
+  </div>
 
-  <p class="center">
-    <b>Ngee Ann Polytechnic</b>
-    <p>(2021- )</p>
-  </p>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img alt= "Greenridge Secondary School" src="images/gss.png" class="center" width= "225" height= "230">
+    <br>
+    <br>
+    <br>
+    <br> 
+    <div class="text"><p><b>Greenridge Secondary School</b><br>2017-2020</p></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img alt= "Ngee Ann Polytechnic" src="images/np.png" class="center" width= "225" height= "230">
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="text"><p><b>Ngee Ann Polytechnic</b><br>2021- </p></div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<br>
 
   <script src="script.js"></script>
   </body>

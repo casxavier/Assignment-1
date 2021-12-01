@@ -10,15 +10,18 @@ As a user, i would also want a website to be clear and concise while not being t
 As a user, i would also want the website to be a fully functioning website with little or no bugs, links to be clear on where it will link to.
 
 As part of the Design Process, i have created a wireframe which can be assessed through the following link:
-https://xd.adobe.com/view/22515d68-f6f2-43e4-b5c7-8a1aafe740b2-7702/?fullscreen&hints=off
+https://xd.adobe.com/view/529fd3d4-3eba-452b-b489-2f97904944e4-07cc/?fullscreen&hints=off
 
 Features
 --------
-Navigation Bar- allows user to click onto different pages of the website with a colour difference for the box that represents the page, aallowing the user to be aware of which page they are currently at
+Navigation Bar- allows user to click onto different pages of the website with a colour difference for the box that represents the page, allowing the user to be aware of which page they are currently at.
 
-Social accounts link- allows the user to easily visit my LinkedIn Profile to find out even more about me or connect with me further
+Photo Gallery- displays the schools I studied at and allows users to click on the next/previous picture. When the screen size is less than 550px, users would have to click on the buttons below the picture to go to the next/previous picture. Also has number to represent which picture the user is currently on
 
-Form- allows the user to submit a form with questions that they want to ask me through email if it is easier for them
+Social accounts link- allows the user to easily visit my LinkedIn Profile to find out even more about me or connect with me further.
+
+Form- allows the user to submit a form with questions that they want to ask me through email if it is easier for them.
+when users submit the form with all fields successfully filled in, there would be an alert to inform the user the form has been successfully filled in.
 
 Future feautres to implement:
 . if applicable, use a video to describe my projects and experiences
@@ -33,10 +36,14 @@ HTML,CSS
 
 JavaScript
 ->https://www.javascript.com/
--> used to add micro interactions with user (to do after checkpoint submission)
+-> used to add photo gallery
+-> used to add alert when form is submitted with all fields inputted.
 
 Testing
 -------
+Photo Gallery:
+  Changed display to certain pixels to ensure the arrows do not go out of the screen
+
 Navigation Bar: 
   Go to each page and check that there are no dead links in the navigation bar
   Check that every link works in any order that it is clicked
@@ -46,6 +53,9 @@ Contact Form:
   Try and submit an empty form and see if the error message for the required fields appear
   Check if the email verification is correct
   Try and submit the form with valid input to see if it submits correctly
+
+Mobile view:
+  Test and see if there are any displays that are out of place and change if there are any.
 
 Credits
 ------- 
