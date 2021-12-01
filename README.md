@@ -39,6 +39,10 @@ JavaScript
 -> used to add photo gallery
 -> used to add alert when form is submitted with all fields inputted.
 
+W3 Schools
+->https://www.w3schools.com/
+-> Used this tool/website for reference for the navigation bar 
+
 Testing
 -------
 Photo Gallery:
