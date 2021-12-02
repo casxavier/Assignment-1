@@ -2,20 +2,23 @@
 var slideIndex = 1;
 showSlides(slideIndex);
 
-function plusSlides(n) {
+function arrowcontrol(n) {
   showSlides(slideIndex += n);
 }
 
-function currentSlide(n) {
+function buttoncontrol(n) {
   showSlides(slideIndex = n);
 }
 
+/* defining function for the slide show*/
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  if (n > slides.length) 
+  {slideIndex = 1}
+  if (n < 1)
+  {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
@@ -50,7 +53,7 @@ function submitformbutton() {
           return false;
         }
 
-        if(f == true)
+        if(f)
         {
             alert("Thank you for reaching out to me!\nHave a good day! :)");
         }

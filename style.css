@@ -199,13 +199,15 @@ image{
   animation-duration: 1.5s;
 }
 
+/*enable fading effect(for webkit-based browsers)*/
 @-webkit-keyframes fade {
-  from {opacity: .4}
+  from {opacity: .5}
   to {opacity: 1}
 }
 
+/*enable fading effect*/
 @keyframes fade {
-  from {opacity: .4}
+  from {opacity: .5}
   to {opacity: 1}
 }
 

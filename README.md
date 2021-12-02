@@ -14,7 +14,7 @@ https://xd.adobe.com/view/529fd3d4-3eba-452b-b489-2f97904944e4-07cc/?fullscreen&
 
 Features
 --------
-Navigation Bar- allows user to click onto different pages of the website with a colour difference for the box that represents the page, allowing the user to be aware of which page they are currently at.
+Navigation Bar- allows user to click onto different pages of the website with a colour difference for the box that represents the page, allowing the user to be aware of which page they are currently at. It also remains at the top of the page whenever the user scrolls down a page for the ease of switching pages.
 
 Photo Gallery- displays the schools I studied at and allows users to click on the next/previous picture. When the screen size is less than 550px, users would have to click on the buttons below the picture to go to the next/previous picture. Also has number to represent which picture the user is currently on
 
