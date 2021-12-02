@@ -68,9 +68,6 @@ image{
     margin-left: auto;
     margin-right: auto;
   }
-  .hidebutton{
-    overflow: hidden;
-  }
 
   /* Navigation Bar */
   .navbar {
@@ -80,7 +77,8 @@ image{
       top:0;
       width:100%;
     }
-    
+  
+  /*Font for navigation bar*/
   .navbar a {
       float: left;
       display: block; 
@@ -90,20 +88,18 @@ image{
       color:rgb(231, 231, 231);
     }
   
+  /*Show user which page or html file they are on*/
   .boxcolour{
       background-color: gray;
       color: blue;
     }
-    
+
+  /*Changes colour of the box when user hovers over it*/
   .navbar a:hover {
       background-color: lightgray;
       color:rgb(14, 35, 66);
     }
     
- .navbar a.active {
-      color: white;
-    }
-
   .margin{
     margin-top:70px
   }
