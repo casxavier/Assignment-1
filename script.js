@@ -1,3 +1,4 @@
+/* Photo gallery */
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -25,6 +26,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+/* form validation and alert */
 function submitformbutton() {
     let f=true;
 
@@ -50,7 +52,7 @@ function submitformbutton() {
 
         if(f == true)
         {
-            alert("Thank you for your time!");
+            alert("Thank you for reaching out to me!\nHave a good day! :)");
         }
         
     }
