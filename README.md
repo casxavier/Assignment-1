@@ -15,48 +15,48 @@ https://xd.adobe.com/view/529fd3d4-3eba-452b-b489-2f97904944e4-07cc/?fullscreen&
 
 Features
 --------
-Navigation Bar- allows user to click onto different pages of the website with a colour difference for the box that represents the page, allowing the user to be aware of which page they are currently at. It also remains at the top of the page whenever the user scrolls down a page for the ease of switching pages.
+Navigation Bar- Allows user to click onto different pages of the website with a colour difference for the box that represents the page, allowing the user to be aware of which page they are currently at. It also remains at the top of the page whenever the user scrolls down a page for the ease of switching pages.
 
 Photo Gallery- displays the schools I studied at and allows users to click on the next/previous picture. When the screen size is less than 550px, users would have to click on the buttons below the picture to go to the next/previous picture. Also has number to represent which picture the user is currently on
 
-Social accounts link- allows the user to easily visit my LinkedIn Profile to find out even more about me or connect with me further.
+Social accounts link- Allows the user to easily visit my LinkedIn Profile to find out even more about me or connect with me further.
 
-Form- allows the user to submit a form with questions that they want to ask me through email if it is easier for them.
-when users submit the form with all fields successfully filled in, there would be an alert to inform the user the form has been successfully filled in. Else, the form would show a notice that there are fields that are empty
+Form- Allows the user to submit a form with questions that they want to ask me through email if it is easier for them.
+When users submit the form with all fields successfully filled in, there would be an alert to inform the user the form has been successfully filled in. Else, the form would show a notice that there are fields that are empty
 
 Future feautres to implement:
-. if applicable, use a video to describe my projects and experiences
-. include even more social links in a block format
-. the form to have an action to my personal email, allowing me to view the question people have asked me and reply to them
+If applicable, use a video to describe my projects and experiences.
+Include even more social links in a block format.
+The form to have an action to my personal email, allowing me to view the question people have asked me and reply to them.
 
 Technology Used
 ---------------
 HTML,CSS
 -> https://html.spec.whatwg.org/multipage/
--> used to create the website and add alignments/design/images to it
+-> used to create the website and add alignments/design/images to it.
 
 JavaScript
 ->https://www.javascript.com/
--> used to add photo gallery
--> used to add alert when form is submitted with all fields inputted
+-> used to add photo gallery.
+-> used to add alert when form is submitted with all fields inputted.
 
 Testing
 -------
 Photo Gallery:
-  Changed display to certain pixels to ensure the arrows do not go out of the screen
-  Ensure that the buttons, arrows, numbering and photo display are all working 
+  Changed display to certain pixels to ensure the arrows do not go out of the screen.
+  Ensure that the buttons, arrows, numbering and photo display are all working.
 
 Navigation Bar: 
-  Go to each page and check that there are no dead links in the navigation bar
-  Check that every link works in any order that it is clicked
-  Check if the link to the page is correct
-  Ensure that the box changes colour correctly when the page is changed
-  Ensure that the navigation bar remains at the top of the screen no matter how far down the user scrolls
+  Go to each page and check that there are no dead links in the navigation bar.
+  Check that every link works in any order that it is clicked.
+  Check if the link to the page is correct.
+  Ensure that the box changes colour correctly when the page is changed.
+  Ensure that the navigation bar remains at the top of the screen no matter how far down the user scrolls.
 
 Contact Form:
-  Try and submit an empty form and see if the error message for the required fields appear
-  Check if the email verification is correct
-  Try and submit the form with valid input to see if it submits correctly
+  Try and submit an empty form and see if the error message for the required fields appear.
+  Check if the email verification is correct.
+  Try and submit the form with valid input to see if it submits correctly.
 
 
 Mobile view:
