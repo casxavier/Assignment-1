@@ -3,11 +3,12 @@ Repo for Assignment 1 (xavier)
 
 Design Process
 --------------
-This website was built to act as my personal portfolio that can be used in th future. I want to highlight areas about myself and the projects that I have been through.
+This website was built to act as my personal portfolio that can be used in the future. I want to highlight areas about myself and the projects that I have been through and what i have to offer others. 
 As I am not experienced in the IT industry, I need to further highlight the skills that I already possess in order to gain the attention of others.
 As a user that visits this website, I want to be attracted them to this website to continue to stay on the website and continue reading. 
 As a user, I would also want a website to be clear and concise while not being too wordy, this allows me to better navigate where I am on the website as it is neater and is more pleasing to the eye. 
 As a user, I would also want the website to be a fully functioning website with little or no bugs, links to be clear on where it will link to.
+As a user, I would want to look at an aesthetically pleasing website so that it is easier on the eye to read.
 
 As part of the Design Process, I have created a wireframe which can be assessed through the following link:
 https://xd.adobe.com/view/529fd3d4-3eba-452b-b489-2f97904944e4-07cc/?fullscreen&hints=off

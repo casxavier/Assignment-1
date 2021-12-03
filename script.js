@@ -2,11 +2,11 @@
 var slideIndex = 1;
 showSlides(slideIndex);
 
-function arrowcontrol(n) {
+function arrowControl(n) {
   showSlides(slideIndex += n);
 }
 
-function buttoncontrol(n) {
+function buttonControl(n) {
   showSlides(slideIndex = n);
 }
 
@@ -30,7 +30,7 @@ function showSlides(n) {
 }
 
 /* form validation and alert */
-function submitformbutton() {
+function submitForm() {
     let f=true;
 
     let nameval = document.forms["form"]["n"].value;
@@ -46,19 +46,19 @@ function submitformbutton() {
         return false;
       }
 
-      let commentval = document.forms["form"]["c"].value;
+    let commentval = document.forms["form"]["c"].value;
 
-      if (commentval == "") {
-          f=false;
-          return false;
-        }
+    if (commentval == "") {
+        f=false;
+        return false;
+      }
 
-        if(f)
-        {
-            alert("Thank you for reaching out to me!\nHave a good day! :)");
-        }
-        
+    if(f)
+    {
+     alert("Thank you for reaching out to me!\nHave a good day! :)");
     }
+        
+}
 
     
 
