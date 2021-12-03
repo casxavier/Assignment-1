@@ -158,6 +158,7 @@ image{
   background-color: bisque;
 }
 
+/*years in study number*/
 .text {
   color: black;
   font-size: 15px;
@@ -168,6 +169,7 @@ image{
   text-align: center;
 }
 
+/*numbering in corner of gallery*/
 .numbertext {
   color: black;
   font-weight: bold;
@@ -231,6 +233,7 @@ image{
   opacity: 1;
 }
 
+  /*remove the arrows when screen is more than 550px*/
     @media(max-width:550px) {
       .prev, .next {
       display:none;
@@ -241,8 +244,10 @@ image{
       }
       
     }
-    @media screen and (max-width: 700px) {
 
+    
+    @media screen and (max-width: 700px) {
+      /*allow wording inside navigation bar to resize when the screen get smaller*/
       .margin{
         margin-top: 100px;
       }
@@ -257,6 +262,7 @@ image{
         text-align: left;
       }
 
+      /*remove bold when screen size is smaller than 700px*/
       .numbertext {
         color: black;
         font-size: 12px;
@@ -265,6 +271,7 @@ image{
         top: 0;
       }
 
+      /*adjust the arrows to fit into screen when it is smaller than 700px*/
       .prev, .next {
         cursor: pointer;
         position: absolute;
