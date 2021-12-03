@@ -22,7 +22,7 @@ Photo Gallery- displays the schools I studied at and allows users to click on th
 Social accounts link- allows the user to easily visit my LinkedIn Profile to find out even more about me or connect with me further.
 
 Form- allows the user to submit a form with questions that they want to ask me through email if it is easier for them.
-when users submit the form with all fields successfully filled in, there would be an alert to inform the user the form has been successfully filled in.
+when users submit the form with all fields successfully filled in, there would be an alert to inform the user the form has been successfully filled in. Else, the form would show a notice that there are fields that are empty
 
 Future feautres to implement:
 . if applicable, use a video to describe my projects and experiences
@@ -38,26 +38,26 @@ HTML,CSS
 JavaScript
 ->https://www.javascript.com/
 -> used to add photo gallery
--> used to add alert when form is submitted with all fields inputted.
-
-W3 Schools
-->https://www.w3schools.com/
--> Used this tool/website for reference for the navigation bar 
+-> used to add alert when form is submitted with all fields inputted
 
 Testing
 -------
 Photo Gallery:
   Changed display to certain pixels to ensure the arrows do not go out of the screen
+  Ensure that the buttons, arrows, numbering and photo display are all working 
 
 Navigation Bar: 
   Go to each page and check that there are no dead links in the navigation bar
   Check that every link works in any order that it is clicked
   Check if the link to the page is correct
+  Ensure that the box changes colour correctly when the page is changed
+  Ensure that the navigation bar remains at the top of the screen no matter how far down the user scrolls
 
 Contact Form:
   Try and submit an empty form and see if the error message for the required fields appear
   Check if the email verification is correct
   Try and submit the form with valid input to see if it submits correctly
+
 
 Mobile view:
   Test and see if there are any displays that are out of place and change if there are any.
